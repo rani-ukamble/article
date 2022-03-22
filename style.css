@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century-gothic;
+  }
+  
+  header{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),url(article.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    /*opacity: 0.9;*/
+  }
+  
+  ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+  }
+  
+  ul li{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+  }
+  
+  ul li a:hover{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  ul li.active a{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .logo img{
+    padding-top: 0 ;
+    float:left;
+    width: 150px;
+    height: auto;
+  }
+  
+  .main{
+    max-width: 1200px;/*website will show centrally*/
+    margin: auto;
+  }
+  
+  .title{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .title h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .button{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .btn{
+    border-top: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    transition: 0.6s ease;
+  }
+  
+  .btn:hover{
+    background-color: #fff;
+    color: black;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;
+    margin-bottom: 2%;
+    margin-top: 2%;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+ 
