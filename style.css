@@ -5,7 +5,7 @@
   }
   
   header{
-    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),url(article.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),url(article.jpg);
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -98,7 +98,7 @@
   /* Float four columns side by side */
   .column {
     float: left;
-    width: 25%;
+    width: 33%;
     padding: 0 10px;
   }
   
@@ -125,7 +125,7 @@
   
   /* Style the counter cards */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
